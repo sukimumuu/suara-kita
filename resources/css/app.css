@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-apricot{
+    background-color: #FFCAB1;
+}
+
+.bg-moonstone{
+    background-color: #69A2B0;
+}
+
+.bg-asparagus{
+    background-color: #659157;
+}
+
+.bg-olivine{
+    background-color: #A1C084;
+}
+
+.bg-indian-red{
+    background-color: #E05263;
+}

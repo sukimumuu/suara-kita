@@ -15,3 +15,6 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/make-petition', [PageController::class, 'createPetition'])->name('create-petition');
+Route::get('/agenda', [PageController::class, 'agenda'])->name('agenda');
+Route::get('/discovery', [PageController::class, 'discovery'])->name('discovery');
