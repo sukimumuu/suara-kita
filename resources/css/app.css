@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .bg-apricot{
     background-color: #FFCAB1;
 }
@@ -19,5 +20,15 @@
 }
 
 .bg-indian-red{
+    background-color: #E05263;
+}
+.text-indian-red{
+    color: #E05263;
+}
+.border-indian-red{
+    border-color: #E05263;
+}
+
+#petition-start:hover{
     background-color: #E05263;
 }

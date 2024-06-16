@@ -10,7 +10,7 @@
 </head>
 <body>
     <x-navbar></x-navbar>
-  {{ $slot }}
-  <x-footer></x-footer>
+      {{ $slot }}
+    <x-footer></x-footer>
 </body>
 </html>

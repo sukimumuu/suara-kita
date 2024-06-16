@@ -1,11 +1,11 @@
-<nav class="w-4/5 mx-auto flex justify-around py-2 px-2 gap-5">
+<nav class="w-4/5 bg-white mx-auto flex justify-around py-2 px-2 gap-5">
     <h3 class="font-bold text-3xl"><a href="{{ route('home') }}"><i class="fa-solid fa-diamond"></i> SuaraKita</a></h3>
     <ul class="flex w-4/5 justify-between items-center">
         <div class="flex gap-5">
-            <li><a href="{{ route('create-petition') }}">Buat Petisi</a></li>
-            <li><a href="{{ route('agenda') }}">Agenda</a></li>
-            <li><a href="{{ route('discovery') }}">Jelajah Petisi</a></li>
-        </div>
+            <li><a class="{{ request()->is('make-petition') ? 'active border-b-4 border-b-red-500' : '' }} hover:border-b-4 hover:border-b-red-500" href="{{ route('create-petition') }}">Buat Petisi</a></li>
+            <li><a class="{{ request()->is('agenda') ? 'border-b-4 border-b-red-500' : '' }} hover:border-b-4 hover:border-b-red-500" href="{{ route('agenda') }}">Agenda</a></li>
+            <li><a class="{{ request()->is('discovery') ? 'border-b-4 border-b-red-500' : '' }} hover:border-b-4 hover:border-b-red-500" href="{{ route('discovery') }}">Jelajah Petisi</a></li>
+        </div>              
         <div class="flex gap-3 w-64 justify-center items-center" x-data="{ open: false }">
             <li class="w-full">
                 <input class="px-3 py-1 border-b border-b-2" type="search" name="" id="" placeholder="Telusuri">
