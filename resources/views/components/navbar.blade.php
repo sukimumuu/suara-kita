@@ -1,4 +1,4 @@
-<nav class="w-4/5 bg-white mx-auto flex justify-around py-2 px-2 gap-5">
+<nav class="w-full bg-white flex justify-around py-2 px-2 gap-5">
     <h3 class="font-bold text-3xl"><a href="{{ route('home') }}"><i class="fa-solid fa-diamond"></i> SuaraKita</a></h3>
     <ul class="flex w-4/5 justify-between items-center">
         <div class="flex gap-5">

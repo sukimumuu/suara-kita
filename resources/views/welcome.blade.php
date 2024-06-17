@@ -6,7 +6,7 @@
         <div class="bg-white dark:bg-gray-800 rounded-lg p-8 md:p-12 mb-8">
             <h1 class="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">SuaraKita</h1>
             <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">Ini adalah platform untuk membuat petisi online, temukan isu yang salah dan berikan aspirasi mu.</p>
-            <a href="#" id="petition-start" class="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center border-4 border-indian-red text-indian-red bg-white hover:text-white ">
+            <a href="{{ route('create-petition') }}" id="petition-start" class="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center border-4 border-indian-red text-indian-red bg-white hover:text-white ">
                 Mulai buat petisi
             </a>
         </div>
