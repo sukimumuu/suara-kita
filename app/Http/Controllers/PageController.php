@@ -19,4 +19,8 @@ class PageController extends Controller
     public function discovery(){
         return view('pages.discover');
     }
+
+    public function register(){
+        return view('auth.register');
+    }
 }
