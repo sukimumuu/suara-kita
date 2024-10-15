@@ -10,7 +10,7 @@
             <li class="w-full">
                 <input class="px-3 py-1 border-b border-b-2" type="search" name="" id="" placeholder="Telusuri">
             </li>
-            @auth
+            {{-- @auth --}}
             <li>
                 <button type="button" @click="open = ! open"><i class="fa-solid fa-user"></i></button>
             </li>
@@ -19,10 +19,10 @@
                 <li><a href="">Petisi Saya</a></li>
                 <li><a href="">Logout</a></li>
             </div>
-            @endauth
-            @guest
+            {{-- @endauth --}}
+            {{-- @guest
                 <li><a href="{{ route('register') }}">Daftar</a></li>
-            @endguest
+            @endguest --}}
         </div>
     </ul>
 </nav>
